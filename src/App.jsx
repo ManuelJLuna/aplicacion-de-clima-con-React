@@ -8,7 +8,7 @@ export const App = () => {
 
     const URL_BASE = `https://api.openweathermap.org/data/2.5/weather`
     // ?q={cityName}&appid={API_KEY}&lang=es
-    const API_KEY = '986aaf4756ae57cc7379305272bf95bd'
+    const API_KEY = 'YOUR_API_KEY'
     const DIF_KELVIN = 273.15 // Diferencia entre grados Kelvin y grados Centigrados
 
     const fetchWeatherData = async () => {
